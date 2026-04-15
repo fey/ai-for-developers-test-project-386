@@ -8,6 +8,15 @@ updates:
     open-pull-requests-limit: 10
     commit-message:
       prefix: "deps"
+    groups:
+      production-dependencies:
+        dependency-type: "production"
+        patterns:
+          - "*"
+      development-dependencies:
+        dependency-type: "development"
+        patterns:
+          - "*"
 
   # GitHub Actions ecosystem
   - package-ecosystem: "github-actions"
@@ -17,3 +26,7 @@ updates:
     open-pull-requests-limit: 10
     commit-message:
       prefix: "ci"
+    groups:
+      actions:
+        patterns:
+          - "*"
