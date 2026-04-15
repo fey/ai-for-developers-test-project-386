@@ -1,8 +1,10 @@
 APP_IMAGE ?= feycot/calendar-slot-code:latest
 APP_CONTAINER ?= calendar-slot-code
 
-setup:
+install:
 	npm install
+
+setup: install
 
 build:
 	npm run build

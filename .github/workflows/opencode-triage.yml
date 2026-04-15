@@ -39,7 +39,10 @@ jobs:
         with:
           model: opencode/kimi-k2.5
           prompt: |
-            Review this issue. If there's a clear fix or relevant docs:
+            Review this issue. Add relevant tags to issue.
+            Create Summary how to fix, not create PR right now
+
+            If there's a clear fix or relevant docs:
             - Provide documentation links
             - Add error handling guidance for code examples
             Otherwise, do not comment.
