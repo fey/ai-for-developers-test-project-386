@@ -1,0 +1,8 @@
+/node_modules/
+/dist/
+/frontend-dist/
+/playwright-report/
+/test-results/
+npm-cache/
+tsp-output/
+tmp/

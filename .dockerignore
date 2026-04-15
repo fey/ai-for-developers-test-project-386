@@ -1,0 +1,6 @@
+dist
+frontend-dist
+npm-cache
+playwright-report
+test-results
+.agent
