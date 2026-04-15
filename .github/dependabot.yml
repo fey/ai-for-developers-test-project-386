@@ -1,0 +1,32 @@
+version: 2
+updates:
+  # NPM ecosystem
+  - package-ecosystem: "npm"
+    directory: "/"
+    schedule:
+      interval: "monthly"
+    open-pull-requests-limit: 10
+    commit-message:
+      prefix: "deps"
+    groups:
+      production-dependencies:
+        dependency-type: "production"
+        patterns:
+          - "*"
+      development-dependencies:
+        dependency-type: "development"
+        patterns:
+          - "*"
+
+  # GitHub Actions ecosystem
+  - package-ecosystem: "github-actions"
+    directory: "/"
+    schedule:
+      interval: "monthly"
+    open-pull-requests-limit: 10
+    commit-message:
+      prefix: "ci"
+    groups:
+      actions:
+        patterns:
+          - "*"
