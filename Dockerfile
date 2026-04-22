@@ -17,8 +17,6 @@ FROM deps AS build-frontend
 
 COPY frontend ./frontend
 COPY vite.config.ts ./
-COPY postcss.config.cjs ./
-COPY tailwind.config.ts ./
 RUN npm run build:frontend
 
 FROM node:24-bookworm-slim AS prod-deps
