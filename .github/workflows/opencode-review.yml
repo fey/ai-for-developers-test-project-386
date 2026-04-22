@@ -18,7 +18,7 @@ jobs:
           persist-credentials: false
       - name: Run opencode
         uses: anomalyco/opencode/github@latest
-        if: steps.check.outputs.result == 'true'
+        # if: steps.check.outputs.result == 'true'
         env:
           OPENCODE_API_KEY: ${{ secrets.OPENCODE_API_KEY }}
         with:
