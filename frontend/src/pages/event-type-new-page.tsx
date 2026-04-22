@@ -118,7 +118,7 @@ export const EventTypeNewPage = () => {
               {t('eventTypes.form.description')}
             </label>
             <textarea
-              className="min-h-[88px] w-full rounded-xl border border-border bg-background px-3 py-2 text-sm outline-none transition focus-visible:ring-2 focus-visible:ring-ring"
+              className="min-h-[88px] w-full rounded-xl border border-border bg-background px-3 py-2 text-sm outline-hidden transition focus-visible:ring-2 focus-visible:ring-ring"
               data-testid="event-type-new-description-input"
               id="event-type-new-description"
               onChange={(event) => setForm((prev) => ({ ...prev, description: event.target.value }))}

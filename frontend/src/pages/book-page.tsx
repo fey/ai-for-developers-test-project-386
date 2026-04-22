@@ -61,7 +61,7 @@ export const BookPage = () => {
           eventTypes.map((eventType) => (
             <Link className="block h-full" key={eventType.id} to={bookBySlugPath(eventType.slug)}>
               <Card
-                className="h-full cursor-pointer transition hover:-translate-y-0.5 hover:border-primary/40 hover:shadow-sm"
+                className="h-full cursor-pointer transition hover:-translate-y-0.5 hover:border-primary/40 hover:shadow-xs"
                 data-testid="book-event-type-card"
               >
                 <div className="flex items-start justify-between gap-4">

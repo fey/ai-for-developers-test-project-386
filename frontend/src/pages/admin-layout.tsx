@@ -16,7 +16,7 @@ export const AdminLayout = () => {
   return (
     <main className="mx-auto w-full max-w-6xl px-4 py-8 md:py-10">
       <div className="grid gap-6 md:grid-cols-[240px_minmax(0,1fr)]">
-        <aside className="rounded-2xl border border-border bg-card p-4 shadow-sm" data-testid="admin-sidebar">
+        <aside className="rounded-2xl border border-border bg-card p-4 shadow-xs" data-testid="admin-sidebar">
           <h1 className="mb-4 text-sm font-semibold uppercase tracking-wide text-muted-foreground">{t('admin.sidebar.title')}</h1>
           <nav className="flex gap-2 md:flex-col">
             <NavLink className={sidebarLinkClass} data-testid="admin-nav-events" to={adminEventsPath()}>
