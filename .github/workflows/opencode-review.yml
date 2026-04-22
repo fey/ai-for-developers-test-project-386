@@ -10,17 +10,15 @@ jobs:
     permissions:
       id-token: write
       contents: read
-      pull-requests: write
-      issues: write
+      pull-requests: read
+      issues: read
     steps:
       - uses: actions/checkout@v6
         with:
           persist-credentials: false
-      - name: Run opencode
-        uses: anomalyco/opencode/github@latest
-        # if: steps.check.outputs.result == 'true'
+      - uses: anomalyco/opencode/github@latest
         env:
-          OPENCODE_API_KEY: ${{ secrets.OPENCODE_API_KEY }}
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         with:
           model: opencode/kimi-k2.5
