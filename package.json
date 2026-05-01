@@ -47,9 +47,9 @@
     "zod": "^4.3.6"
   },
   "devDependencies": {
-    "@biomejs/biome": "^2.4.12",
+    "@biomejs/biome": "^2.4.13",
     "@playwright/test": "^1.59.1",
-    "@stoplight/prism-cli": "^5.14.2",
+    "@stoplight/prism-cli": "^5.15.10",
     "@tailwindcss/vite": "^4.2.2",
     "@types/better-sqlite3": "^7.6.13",
     "@types/node": "^25.6.0",
@@ -59,10 +59,10 @@
     "@typespec/openapi3": "^1.11.0",
     "@vitejs/plugin-react": "^6.0.1",
     "concurrently": "^9.2.1",
-    "tailwindcss": "^4.2.2",
+    "tailwindcss": "^4.2.4",
     "tsx": "^4.21.0",
-    "typescript": "^6.0.2",
-    "vite": "^8.0.8",
-    "vitest": "^4.1.4"
+    "typescript": "^6.0.3",
+    "vite": "^8.0.10",
+    "vitest": "^4.1.5"
   }
 }
