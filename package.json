@@ -47,22 +47,22 @@
     "zod": "^4.3.6"
   },
   "devDependencies": {
-    "@biomejs/biome": "^2.4.12",
-    "@playwright/test": "^1.59.1",
-    "@stoplight/prism-cli": "^5.14.2",
-    "@tailwindcss/vite": "^4.2.2",
+    "@biomejs/biome": "^2.4.16",
+    "@playwright/test": "^1.60.0",
+    "@stoplight/prism-cli": "^5.15.10",
+    "@tailwindcss/vite": "^4.3.0",
     "@types/better-sqlite3": "^7.6.13",
-    "@types/node": "^25.6.0",
+    "@types/node": "^25.9.1",
     "@types/react": "^19.2.14",
     "@types/react-dom": "^19.2.3",
-    "@typespec/compiler": "^1.11.0",
-    "@typespec/openapi3": "^1.11.0",
-    "@vitejs/plugin-react": "^6.0.1",
-    "concurrently": "^9.2.1",
+    "@typespec/compiler": "^1.12.0",
+    "@typespec/openapi3": "^1.12.0",
+    "@vitejs/plugin-react": "^6.0.2",
+    "concurrently": "^10.0.1",
     "tailwindcss": "^4.2.2",
-    "tsx": "^4.21.0",
-    "typescript": "^6.0.2",
-    "vite": "^8.0.8",
-    "vitest": "^4.1.4"
+    "tsx": "^4.22.4",
+    "typescript": "^6.0.3",
+    "vite": "^8.0.16",
+    "vitest": "^4.1.8"
   }
 }
